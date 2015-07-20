@@ -23,7 +23,6 @@ import java.io.OutputStream;
 public class SignedPDFExporterService extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //change test
         String sessionID = WebUtils.getHTTPRequestParameter(req, "sessionID");
         if (sessionID != null) {
             ReportSessionIDInfor sessionIDInfor = (ReportSessionIDInfor) SessionDealWith.getSessionIDInfor(sessionID);
