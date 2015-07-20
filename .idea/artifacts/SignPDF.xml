@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SignPDF">
+    <output-path>$PROJECT_DIR$/out/artifacts/SignPDF</output-path>
+    <root id="archive" name="SignPDF.jar">
+      <element id="module-output" name="SignPDF" />
+    </root>
+  </artifact>
+</component>
